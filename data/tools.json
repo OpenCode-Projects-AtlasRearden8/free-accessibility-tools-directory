@@ -1,0 +1,806 @@
+{
+  "meta": {
+    "title": "Free Accessibility Tools",
+    "tagline": "Free ways to make your computer, phone, and browser easier on your eyes, ears, hands, reading, and focus - screen readers, magnifiers, dictation, captions, dyslexia-friendly fonts, keyboard helpers, and the accessibility features already hiding in your devices.",
+    "maintainer": "Asdale Dynamics, LLC",
+    "updatedOn": "2026-10-27",
+    "nextFullRecheck": "2027-01-27",
+    "policy": "No affiliate links: nothing on this page earns anyone a commission, ever. Every card links only to the tool's official home, states exactly why it is free, and carries a last-checked date plus a next-recheck date. Prices and features at free tools drift, so trust the linked official page over any card when dates are old.",
+    "companionNote": "Companion resource to the Free Large-Print Tech Kit, which covers big-type phone and computer basics for less-techy relatives. This directory covers the wider world of free assistive tools and built-in settings."
+  },
+  "tools": [
+    {
+      "id": "nvda",
+      "name": "NVDA (NonVisual Desktop Access)",
+      "category": "screen-readers",
+      "platforms": ["windows"],
+      "freeStatus": "open-source",
+      "license": "GNU GPL v2 (free and open source)",
+      "oneLiner": "A complete talking screen reader for Windows that costs nothing, not even a license key.",
+      "whatItDoes": "NVDA reads out what is on your Windows screen - menus, buttons, your inbox, web pages, documents - so you can run a computer entirely by ear. It works with braille displays, dozens of languages and voices, and every major browser and office suite.",
+      "proofFree": "The full source code is published under the GNU GPL v2 open-source license, and NV Access, the nonprofit that develops NVDA, never charges for the software. It funds NVDA with donations; the installer includes a friendly message encouraging a donation that you can decline.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "If you use Windows and need a screen reader, start here: install NVDA and speech begins within minutes. Give yourself one unhurried afternoon to learn the navigation basics, and the certification or onboarding videos from NV Access are free too."
+      },
+      "sources": [
+        { "label": "Official NVDA download page", "url": "https://www.nvaccess.org/download/" },
+        { "label": "NV Access home page", "url": "https://www.nvaccess.org/" }
+      ],
+      "officialDomains": ["nvaccess.org"],
+      "versionHint": "Windows 10 and 11",
+      "needs": ["blind", "low-vision"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "windows-narrator",
+      "name": "Windows Narrator",
+      "category": "screen-readers",
+      "platforms": ["windows"],
+      "freeStatus": "built-in",
+      "oneLiner": "The screen reader already inside Windows - press one shortcut and it starts talking.",
+      "whatItDoes": "Narrator reads the screen aloud and announces what you type, so you can use Windows without seeing it. Press the Windows key + Ctrl + Enter to launch it anywhere, or open it from the quick settings Accessibility flyout; its first-run audio guide walks you through the basics.",
+      "proofFree": "Built into Windows 10 and 11 at no extra charge. There is nothing to download, no account, and no paid tier - it is part of the Windows license your PC already came with.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "Nothing to install makes it the fastest yes/no test of whether a screen reader helps you. Once you outgrow it on complex everyday apps (many people do), NVDA is the usual next step - both are free, so trying both costs nothing."
+      },
+      "sources": [
+        { "label": "Complete guide to Narrator (Microsoft Support)", "url": "https://support.microsoft.com/en-us/accessibility/windows/narrator/complete-guide-to-narrator" }
+      ],
+      "officialDomains": ["microsoft.com"],
+      "versionHint": "Windows 10 and 11",
+      "needs": ["blind", "low-vision"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "voiceover-apple",
+      "name": "Apple VoiceOver",
+      "category": "screen-readers",
+      "platforms": ["ios", "macos"],
+      "freeStatus": "built-in",
+      "oneLiner": "The screen reader already built into every iPhone, iPad, and Mac.",
+      "whatItDoes": "VoiceOver speaks whatever is under your finger or keyboard focus - labels, messages, buttons, photos - so you can drive an iPhone with gestures or a Mac with the keyboard. Siri can switch it on with a single phrase, and it includes a built-in practice area where gestures can be tried without disturbing anything.",
+      "proofFree": "Included with iOS, iPadOS, and macOS at no cost. No purchase, subscription, or unlock fee exists for it, and Apple documents it thoroughly in its free support guides.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "If your device is an iPhone, iPad, or Mac, use the screen reader you already own before installing anything. Gesture navigation takes a few days to feel natural - the built-in VoiceOver Practice mode exists for exactly that."
+      },
+      "sources": [
+        { "label": "Turn on and practice VoiceOver on iPhone (Apple Support)", "url": "https://support.apple.com/guide/iphone/iph3e2e415f/ios" },
+        { "label": "Apple accessibility overview page", "url": "https://www.apple.com/accessibility/features/" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "Built into iOS, iPadOS, and macOS; braille displays supported",
+      "needs": ["blind"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "talkback",
+      "name": "Android TalkBack",
+      "category": "screen-readers",
+      "platforms": ["android"],
+      "freeStatus": "built-in",
+      "oneLiner": "Google's screen reader, already on most Android phones under Settings - Accessibility.",
+      "whatItDoes": "TalkBack announces what your finger touches and lets you run the whole phone one-handed with spoken feedback: read messages aloud, have on-screen items described, use braille displays, or practice in its embedded tutorial.",
+      "proofFree": "Preinstalled on most Android devices and free everywhere; Google maintains it as part of Android and documents it publicly in the Android Accessibility Help center. The companion Android Accessibility Suite on Google Play is free as well.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "Turn it on, then join the built-in tutorial before touching anything else. The one wrinkle: menu names can differ a little by phone maker (Samsung layers its own options on top), so search the Settings app for 'TalkBack' if the paths look different."
+      },
+      "sources": [
+        { "label": "TalkBack on Android Accessibility Help (Google)", "url": "https://support.google.com/accessibility/android/answer/6007100" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "Preinstalled on most Android phones",
+      "needs": ["blind"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "orca",
+      "name": "Orca",
+      "category": "screen-readers",
+      "platforms": ["linux"],
+      "freeStatus": "open-source",
+      "license": "LGPL (free and open source)",
+      "oneLiner": "The free, open-source screen reader that ships with GNOME-based Linux.",
+      "whatItDoes": "Orca provides speech and refreshable-braille access to the Linux graphical desktop, working with LibreOffice, Firefox, Thunderbird, and other apps that support the AT-SPI accessibility layer. On GNOME, Super + Alt + S toggles it; a preferences window tunes voices, rate, and key bindings.",
+      "proofFree": "Developed by the GNOME Project as free software and included in major distributions (Ubuntu, Fedora, and friends) - no cost, no paid edition, and the official site states plainly that it is 'a free, open source... screen reader'.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "If your distribution uses GNOME (Ubuntu and Fedora are the gentlest), Orca is already installed - the shortcut is Super + Alt + S. Other desktops need a little more setup, so pick a GNOME-based distro if you are choosing new."
+      },
+      "sources": [
+        { "label": "Official Orca site (GNOME Project)", "url": "https://orca.gnome.org/" },
+        { "label": "Orca introduction and first steps", "url": "https://help.gnome.org/orca/introduction.html" }
+      ],
+      "officialDomains": ["gnome.org"],
+      "versionHint": "Works with GNOME and other Linux desktops",
+      "needs": ["blind"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "windows-magnifier",
+      "name": "Windows Magnifier",
+      "category": "magnifiers",
+      "platforms": ["windows"],
+      "freeStatus": "built-in",
+      "oneLiner": "Zoom that lives inside Windows itself - whole screen, a docked strip, or a lens that follows your mouse.",
+      "whatItDoes": "Press the Windows key + Plus to open Magnifier and Windows + Esc to leave; Windows + Alt + Space shows quick shortcuts. It offers full-screen zoom, a docked magnified bar, and a mouse-following lens, can invert colors for contrast comfort, and can even read text on screen with Magnifier reading.",
+      "proofFree": "Part of Windows 10 and 11 - no download, no account, no paid tier. Microsoft documents it freely in its support library alongside a keyboard-shortcut cheat sheet.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "Two shortcuts (Windows + Plus to zoom in, Windows + Esc to stop) do most of the work. Softer zoom settings and cursor thickness live in Settings - Accessibility - Magnifier once you are ready."
+      },
+      "sources": [
+        { "label": "Use Magnifier to make things on the screen easier to see (Microsoft)", "url": "https://support.microsoft.com/en-us/accessibility/windows/magnifier/use-magnifier-to-make-things-on-the-screen-easier-to-see" }
+      ],
+      "officialDomains": ["microsoft.com"],
+      "versionHint": "Windows 10 and 11",
+      "needs": ["low-vision"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "ios-magnifier",
+      "name": "iPhone & iPad Magnifier",
+      "category": "magnifiers",
+      "platforms": ["ios"],
+      "freeStatus": "built-in",
+      "oneLiner": "A store-bought magnifying glass replacement: camera zoom with brightness, contrast, filters, and text detection.",
+      "whatItDoes": "Open Magnifier (or ask Siri) and the rear camera becomes a zoom lens you can enlarge, brighten, and boost contrast on - menus, price tags, medication labels. Its detection features can find and read text in the camera view, and filters help with color discrimination.",
+      "proofFree": "Installed with iOS and iPadOS on the devices Apple lists (a current iPhone makes it appear as a normal app; it can also live in Control Center). No purchase, no sign-in beyond your existing device, no ads.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "Five seconds to try: tell Siri 'Open Magnifier.' It is one of the most loved everyday iOS features for people who, say, want to read a tiny serial number or a prescription label."
+      },
+      "sources": [
+        { "label": "Accessibility features for vision on iPhone (Apple Support)", "url": "https://support.apple.com/guide/iphone/iph732dc028d/ios" },
+        { "label": "Apple accessibility features overview", "url": "https://www.apple.com/accessibility/features/" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "Built into iOS and iPadOS",
+      "needs": ["low-vision"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "macos-zoom",
+      "name": "macOS Zoom with Hover Text",
+      "category": "magnifiers",
+      "platforms": ["macos"],
+      "freeStatus": "built-in",
+      "oneLiner": "Full-screen, split, and lens zoom plus giant Hover Text - all already on the Mac.",
+      "whatItDoes": "Under System Settings - Accessibility - Zoom you pick a style: magnify the entire screen, a split view, or a pointer-following picture-in-picture panel. Hover Text shows a huge, high-contrast reading of whatever is under your cursor, sized once to your taste.",
+      "proofFree": "A standard part of macOS documented in Apple's own support library; there is nothing to buy and nothing to download.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "Tick 'Use keyboard shortcuts to zoom' on your first visit and leave the rest until it bothers you. Hover Text is the sleeper feature - ideal when only the occasional label is too small."
+      },
+      "sources": [
+        { "label": "Zoom in on your Mac screen (Apple Support)", "url": "https://support.apple.com/guide/mac-help/zoom-in-on-your-mac-screen-mchl779716b8/mac" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "macOS",
+      "needs": ["low-vision"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "android-magnification",
+      "name": "Android Screen Magnification",
+      "category": "magnifiers",
+      "platforms": ["android"],
+      "freeStatus": "built-in",
+      "oneLiner": "Pinch-zoom the whole phone, or a window over a piece of it, from a triple-tap shortcut.",
+      "whatItDoes": "Switch on the Magnification shortcut, then triple-tap and hold (or press the accessibility button) to zoom any app: full-screen magnification enlarges everything, partial-screen magnification adds a movable window, and Follow typing keeps the areas you type in view.",
+      "proofFree": "A standard Android accessibility setting, documented by Google in its public help library. Free on every manufacturer's phone, though the newest extras land on current Android versions first.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "Settings - Accessibility - Magnification - turn on 'Magnification shortcut.' Non-Pixel phones sometimes rename menus, so search Settings for 'magnification' if the route looks different."
+      },
+      "sources": [
+        { "label": "Use magnification on your screen (Google)", "url": "https://support.google.com/accessibility/android/answer/6006949" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "Some steps need Android 13+; magnifier panel on 14+",
+      "needs": ["low-vision"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "gboard-voice-typing",
+      "name": "Phone keyboard voice typing (Gboard & iOS keyboard)",
+      "category": "dictation",
+      "platforms": ["android", "ios"],
+      "freeStatus": "built-in",
+      "oneLiner": "Tap the microphone on your phone's keyboard and speak your message into any app.",
+      "whatItDoes": "On Android, Gboard types wherever typing is possible - the mic sits at the top of the keyboard, and on supported Pixel devices it adds automatic punctuation plus on-device processing. On iPhone and iPad, the built-in keyboard's microphone button performs the same dictation in every app; Gboard itself can be installed there too.",
+      "proofFree": "Both keyboards ship with the operating system at no charge, and Google's free Gboard app (Android and iOS) documents voice typing in its public help pages. No subscription, no word-count quota.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "The quickest accessibility win on any phone: open Messages, tap the microphone, and talk. You will fix the odd wrong word, which still beats tapping every letter by hand."
+      },
+      "sources": [
+        { "label": "Type with your voice (Gboard Help)", "url": "https://support.google.com/gboard/answer/2781851" },
+        { "label": "Advanced Gboard voice typing on Pixel devices", "url": "https://support.google.com/gboard/answer/11197787" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "Gboard on Android and iOS; advanced features on newer Pixels",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "google-docs-voice-typing",
+      "name": "Google Docs voice typing",
+      "category": "dictation",
+      "platforms": ["web"],
+      "freeStatus": "built-in",
+      "oneLiner": "Dictate straight into a Google Doc, complete with commands that select, format, and edit.",
+      "whatItDoes": "In a Google Doc, pick Tools - Voice typing, click the microphone, and speak; Chrome, Edge, and Safari all work in current versions. Voice commands can select paragraphs, insert tables, and format text, so you can compose and edit largely without the keyboard.",
+      "proofFree": "Documented on Google's official support page as part of the free Google Docs you already use with a personal Google account. There is no premium tier that adds voice typing; it is simply there.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "The friendly middle ground for dictating anything longer than a text message, and the editing commands genuinely work. It needs an internet connection, and punctuation is not always where you wanted it - reread before sending."
+      },
+      "sources": [
+        { "label": "Type & edit with your voice (Google Docs Help)", "url": "https://support.google.com/docs/answer/4492226" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "Free Google account; Chrome, Edge, or Safari",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "windows-voice-access",
+      "name": "Windows 11 Voice Access",
+      "category": "dictation",
+      "platforms": ["windows"],
+      "freeStatus": "built-in",
+      "oneLiner": "Control the entire PC by voice - open apps, click by name or number, dictate and correct text.",
+      "whatItDoes": "Voice Access replaced the old Windows Speech Recognition on Windows 11 (22H2 and later) and covers a striking amount: launching and switching apps, clicking controls by their on-screen labels or grid numbers, dictation, text correction, and even signing in (23H2 and later). Recognition runs on the device after a one-time language download.",
+      "proofFree": "Included with Windows 11 - free, with no subscription. Microsoft states it works without an internet connection and publishes the full command list publicly.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "Start from the lock screen's Accessibility flyout or Settings - Accessibility - Voice Access. When lost, ask for the command list that appears on screen. Worth trying thoroughly before paying for commercial voice-control software."
+      },
+      "sources": [
+        { "label": "Use voice access to control your PC (Microsoft)", "url": "https://support.microsoft.com/en-us/accessibility/windows/voice-access/use-voice-access-to-control-your-pc-author-text-with-your-voice" }
+      ],
+      "officialDomains": ["microsoft.com"],
+      "versionHint": "Windows 11 22H2 and later",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "macos-voice-control",
+      "name": "macOS Voice Control & Dictation",
+      "category": "dictation",
+      "platforms": ["macos"],
+      "freeStatus": "built-in",
+      "oneLiner": "Two free ways to work by voice on a Mac: speech-to-text everywhere, or full computer control.",
+      "whatItDoes": "Dictation (System Settings - Keyboard) writes into any text field whenever you press the mic key or dictate keyword. Voice Control (System Settings - Accessibility) goes further: 'Open Mail', 'Click Done', 'Scroll down', with dictation woven in. On Apple Silicon Macs much of it processes on the device, no internet needed.",
+      "proofFree": "Both ship with macOS, documented in Apple's free support guides; nothing to buy and no per-minute speech server to rent.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "Try plain Dictation first, then Voice Control once you want to move around without your hands. One quirk to know: while Voice Control is on, it - not plain Dictation - handles the typing."
+      },
+      "sources": [
+        { "label": "Voice Control commands on Mac (Apple Support)", "url": "https://support.apple.com/guide/mac-help/use-voice-control-commands-mh40719/mac" },
+        { "label": "Dictate messages and documents on Mac (Apple Support)", "url": "https://support.apple.com/guide/mac-help/use-dictation-mh40584/mac" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "macOS",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "edge-read-aloud",
+      "name": "Microsoft Edge Read Aloud",
+      "category": "text-to-speech",
+      "platforms": ["edge"],
+      "freeStatus": "built-in",
+      "oneLiner": "Right-click any web page, PDF, or e-book and Edge reads it in natural-sounding voices.",
+      "whatItDoes": "Read Aloud (Ctrl + Shift + U, or right-click - Read aloud) narrates while highlighting each word, with speed and voice controls. It works on articles in Immersive Reader, ordinary pages, and PDFs; a few basic voices even work offline while the natural voices stream over the internet.",
+      "proofFree": "Edge is Microsoft's free browser on Windows, macOS, and other platforms, and Read Aloud is a feature of the browser itself - Microsoft's product page documents it as built in, with no Microsoft 365 subscription required.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "The easiest free text-to-speech on Windows: likely already sitting in your taskbar. Try it on the next long article you keep putting off, or on a PDF lease you keep skipping."
+      },
+      "sources": [
+        { "label": "Read aloud feature page (Microsoft Edge)", "url": "https://www.microsoft.com/en-us/edge/features/read-aloud" },
+        { "label": "Accessibility features in Microsoft Edge (Microsoft Support)", "url": "https://support.microsoft.com/en-us/accessibility/edge/accessibility-features-in-microsoft-edge" }
+      ],
+      "officialDomains": ["microsoft.com"],
+      "versionHint": "Free browser for Windows, macOS, and Linux",
+      "needs": ["low-vision", "dyslexia-reading"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "balabolka",
+      "name": "Balabolka",
+      "category": "text-to-speech",
+      "platforms": ["windows"],
+      "freeStatus": "freeware",
+      "license": "Freeware (no ads inside the program)",
+      "oneLiner": "A veteran free Windows program that reads files, clipboard text, or documents aloud - and can export the audio as MP3.",
+      "whatItDoes": "Paste an article or open a document and Balabolka reads it with the speech voices already installed on Windows, letting you tweak pronunciation, rate, and pitch as it goes. It can open text from many common file formats and save the spoken audio to files for listening later, and a portable version needs no install.",
+      "proofFree": "The developer states the deal in plain words on the official page: 'As long as people pay money for Cross+A, Balabolka will remain freeware.' It has stayed free for years, and the site's own downloads are the only place we link to.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "A little old-fashioned in looks and worth trying after the built-ins: batch reading, MP3 exports, and pronunciation fixes are the reasons folks keep it. Windows already supplies at least one voice, so it talks right away."
+      },
+      "sources": [
+        { "label": "Balabolka official page (Cross+A)", "url": "https://www.cross-plus-a.com/balabolka.htm" }
+      ],
+      "officialDomains": ["cross-plus-a.com"],
+      "versionHint": "Windows",
+      "needs": ["low-vision", "dyslexia-reading"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "apple-speak-screen",
+      "name": "iPhone & iPad Read & Speak (formerly Spoken Content)",
+      "category": "text-to-speech",
+      "platforms": ["ios"],
+      "freeStatus": "built-in",
+      "oneLiner": "Have the whole screen - or just a paragraph you select - read aloud with the words highlighted.",
+      "whatItDoes": "Under Settings - Accessibility - Read & Speak (called Spoken Content on older iOS), 'Speak Screen' reads everything visible and a two-finger swipe from the top starts it; 'Speak Selection' reads only text you highlight. Words highlight as they are spoken, the speed is adjustable, and typing feedback can be spoken aloud too.",
+      "proofFree": "Part of iOS and iPadOS on modern devices at no cost - no subscription unlocking it, because Apple counts it among its standard accessibility features.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "Wonderful for tired eyes, long newsletters, and hearing a sentence rhythm you know sounds wrong. Pairs wonderfully with the Magnifier on the same settings page."
+      },
+      "sources": [
+        { "label": "Hear iPhone speak the screen, selected text, and typing feedback (Apple Support)", "url": "https://support.apple.com/guide/iphone/iph96b214f0/ios" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "iOS and iPadOS",
+      "needs": ["low-vision", "dyslexia-reading"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "android-select-to-speak",
+      "name": "Android Select to Speak",
+      "category": "text-to-speech",
+      "platforms": ["android"],
+      "freeStatus": "built-in",
+      "oneLiner": "Tap any block of text - or drag a circle around part of the screen - and your phone reads it right now.",
+      "whatItDoes": "Select to Speak reads the item you tap, a drawn region, or the entire screen, following the words with a highlight as it goes. Bind it to the accessibility button and it never gets in the way of normal use; it can also read text inside images on recent versions.",
+      "proofFree": "One of Google's free accessibility services, documented publicly in Android Accessibility Help; it ships with the device or installs free as part of the Android Accessibility Suite.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "The on-demand reader of choice when you mostly see fine but a particular paragraph fights back. Much gentler than switching to full TalkBack mode."
+      },
+      "sources": [
+        { "label": "Use Select to Speak (Google)", "url": "https://support.google.com/accessibility/android/answer/7349565" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "Android",
+      "needs": ["low-vision", "dyslexia-reading"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "windows-live-captions",
+      "name": "Windows 11 Live Captions",
+      "category": "captioning",
+      "platforms": ["windows"],
+      "freeStatus": "built-in",
+      "oneLiner": "Live captions for any audio playing on the PC - videos, calls, even your microphone - generated on your own device.",
+      "whatItDoes": "Press Windows + Ctrl + L (or open Settings - Accessibility - Captions) and a caption bar docks wherever you like. It transcribes speech from app audio and the microphone so in-person conversations can be captioned too, and you can adjust the caption look. On Copilot+ PCs (24H2 and later) it even translates dozens of languages.",
+      "proofFree": "Included with Windows 11 (22H2 and later) at no cost, and Microsoft's support page notes captions continue to work even while offline - there is no service subscription behind it.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "No install at all, so it is the first captioning tool to try on Windows. Accuracy rises with a close, clear audio source; give it straightforward videos and podcasts before judging it on noisy group calls."
+      },
+      "sources": [
+        { "label": "Use live captions to better understand audio (Microsoft)", "url": "https://support.microsoft.com/en-us/accessibility/windows/use-live-captions-to-better-understand-audio" }
+      ],
+      "officialDomains": ["microsoft.com"],
+      "versionHint": "Windows 11 22H2 and later",
+      "needs": ["hard-of-hearing"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "chrome-live-caption",
+      "name": "Chrome Live Caption",
+      "category": "captioning",
+      "platforms": ["chrome"],
+      "freeStatus": "built-in",
+      "oneLiner": "Instant captions for videos and audio playing in Chrome - no website needs to cooperate.",
+      "whatItDoes": "Turn on Live Caption in Chrome's settings (Settings - Accessibility) and captions appear for any media playing in the browser, sitting at the top of the page. It runs in the browser on your device; Google has expanded its language support over time.",
+      "proofFree": "A feature of the free Chrome browser, documented in Google's public help center; captions are generated in the browser with no account or fee involved.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "A lifesaver on the many videos that arrive without captions. It only hears what plays in the browser, so for system-wide captioning on Windows use Live Captions instead."
+      },
+      "sources": [
+        { "label": "Manage captions and translate in Chrome (Google)", "url": "https://support.google.com/chrome/answer/10538231" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "Chrome on desktop and mobile",
+      "needs": ["hard-of-hearing"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "android-live-caption",
+      "name": "Android Live Caption",
+      "category": "captioning",
+      "platforms": ["android"],
+      "freeStatus": "built-in",
+      "oneLiner": "One tap under the volume bar captions whatever is playing - videos, podcasts, and even phone calls.",
+      "whatItDoes": "Press a volume button and tap the Live Caption chip; captions appear on screen for media speech, and on recent Android versions they can caption phone calls with typed responses. Google states plainly that all captions are processed locally, never stored, and never leave the device.",
+      "proofFree": "Standard on Android at no cost; the official Help page does the honest work of stating the privacy story and the one-time language download.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "The most convenient captioning switch on a phone: volume button, then Live Caption. The first language pack needs a one-time Wi-Fi download."
+      },
+      "sources": [
+        { "label": "Live Caption: caption media & calls on your device (Google)", "url": "https://support.google.com/accessibility/android/answer/9350862" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "On-device captioning; call captions on newer versions",
+      "needs": ["hard-of-hearing", "cognitive-focus"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "apple-live-captions",
+      "name": "Apple Live Captions",
+      "category": "captioning",
+      "platforms": ["ios", "macos"],
+      "freeStatus": "built-in",
+      "oneLiner": "Real-time captions for FaceTime, app audio, and nearby conversation on iPhone, iPad, and Mac.",
+      "whatItDoes": "Switch it on under Settings - Accessibility - Live Captions and the device transcribes what is playing or spoken nearby, in a window you can shape. You can type a reply and have it spoken during calls. Requires iPhone 11 or later, iPads with A12 or newer, or Macs with Apple silicon.",
+      "proofFree": "Included in iOS, iPadOS, and macOS; Apple's own support guide and accessibility feature list state the device requirements and language limits openly, with no charge attached.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "Excellent on FaceTime calls with family. Heed Apple's own caution written into the guide: accuracy varies and it 'should not be relied upon in high-risk or emergency situations' - for critical moments, use human captioning or ask people to slow down."
+      },
+      "sources": [
+        { "label": "Get live captions of spoken audio on iPhone (Apple Support)", "url": "https://support.apple.com/guide/iphone/iphe0990f7bb/ios" },
+        { "label": "Apple accessibility features overview", "url": "https://www.apple.com/accessibility/features/" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "iPhone 11 or later; language limits apply",
+      "needs": ["hard-of-hearing"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "live-transcribe",
+      "name": "Live Transcribe & Sound Notifications (Android)",
+      "category": "captioning",
+      "platforms": ["android"],
+      "freeStatus": "freeware",
+      "license": "Free app published by Google (no ads)",
+      "oneLiner": "Hold the phone toward a conversation and read it as text - with alerts for door knocks, alarms, and a crying baby.",
+      "whatItDoes": "Live Transcribe turns nearby speech into text in dozens of languages and dialects in real time, with a typing reply box so you can answer by screen. Sound Notifications, in the same app, recognizes important household sounds - smoke alarms, doorbells, running water - and buzzes or flashes to alert you.",
+      "proofFree": "Published on Google Play by Google itself with no ads; on Pixels it is preinstalled, and elsewhere installs free from the official Play listing. Offline transcription is enabled by default on many recent phones (Android 12 and up).",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "Point it at the conversation, read along, and type your replies. Try the Sound Notifications tab in a quiet room once so you know exactly which sounds trigger it."
+      },
+      "sources": [
+        { "label": "Use Live Transcribe (Google)", "url": "https://support.google.com/accessibility/android/answer/9158064" },
+        { "label": "Official app listing on Google Play", "url": "https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "Android 12 and up",
+      "needs": ["hard-of-hearing"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "immersive-reader",
+      "name": "Microsoft Immersive Reader",
+      "category": "dyslexia-fonts",
+      "platforms": ["edge", "web"],
+      "freeStatus": "built-in",
+      "oneLiner": "A calm reading view with read-aloud, adjustable spacing, grammar tinting, and translation - one click away in Edge.",
+      "whatItDoes": "Open a page in Edge, tap the book icon, and Immersive Reader strips the page to clean text with controls for text size, spacing, column width, page colors, and line focus. Grammar tools color nouns and verbs, the picture dictionary attaches images to words where available, and translations ride along. Also built into Word, OneNote, and Teams if you use them.",
+      "proofFree": "Microsoft describes Immersive Reader as 'a free tool' built into Microsoft 365 apps and available in the free Edge browser, on the page and in the official support article we link to.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "If reading feels like wading through soup, this is the gentlest ramp: one click, no installation, and every adjustment is reversible. Start with just the bigger text and wider spacing; add the rest later."
+      },
+      "sources": [
+        { "label": "Immersive Reader and Digital Learning Tools (Microsoft)", "url": "https://www.microsoft.com/en-us/education/learning-tools" },
+        { "label": "Use Immersive Reader in Microsoft Edge (Microsoft Support)", "url": "https://support.microsoft.com/en-us/edge/use-immersive-reader-in-microsoft-edge" }
+      ],
+      "officialDomains": ["microsoft.com"],
+      "versionHint": "Free in the Edge browser; also inside Word and other Microsoft apps",
+      "needs": ["dyslexia-reading", "low-vision", "cognitive-focus"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "firefox-reader-view",
+      "name": "Firefox Reader View",
+      "category": "dyslexia-fonts",
+      "platforms": ["firefox"],
+      "freeStatus": "built-in",
+      "oneLiner": "One click strips a web page down to clean text you can resize, respace, and recolor - then save it for offline reading.",
+      "whatItDoes": "Reader View removes ads, menus, pop-ups, and background clutter, offering controls for font family, text size, line spacing, and contrast afterward. Pages can be saved to your reading list for offline reading, and it works on desktop Firefox as well as Firefox on Android and iOS.",
+      "proofFree": "It is part of the free Firefox browser, documented on Mozilla Support; the underlying Readability engine is published as open source by Mozilla on GitHub.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "One of the kindest tools when a site's design is fighting you: the page-shaped icon appears in the address bar whenever a page can be simplified. Firefox mobile users get the same icon."
+      },
+      "sources": [
+        { "label": "Firefox Reader View guide (Mozilla Support)", "url": "https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages" }
+      ],
+      "officialDomains": ["mozilla.org"],
+      "versionHint": "Desktop Firefox plus Firefox on Android and iPhone",
+      "needs": ["dyslexia-reading", "cognitive-focus", "low-vision"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "atkinson-hyperlegible",
+      "name": "Atkinson Hyperlegible fonts",
+      "category": "dyslexia-fonts",
+      "platforms": ["web", "windows", "macos", "ios", "android"],
+      "freeStatus": "open-source",
+      "license": "SIL Open Font License",
+      "oneLiner": "Braille Institute's award-winning fonts, drawn so the characters most often confused cannot hide from you.",
+      "whatItDoes": "Letters like B and 8, i and l get deliberately distinctive shapes and clearer edges, improving legibility for readers with low vision. The family now includes the original font, Atkinson Hyperlegible Next (with more than 150 languages), and a Mono version - usable in documents, e-readers, phones, and websites.",
+      "proofFree": "Braille Institute's official page says the font is free for everyone 'from personal use to all commercial applications', and it is published under the SIL Open Font License; the same font is free on Google Fonts, which asks nothing at all to download (the Braille Institute site itself politely asks for an email first).",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "The pick when OpenDyslexic's distinct look is not for you - this one reads like a normal, professional font while quietly removing the guessing between look-alike letters. Grab it from Google Fonts to skip the email form."
+      },
+      "sources": [
+        { "label": "Braille Institute: Atkinson Hyperlegible", "url": "https://www.brailleinstitute.org/freefont/" },
+        { "label": "Same fonts on Google Fonts (no email needed)", "url": "https://fonts.google.com/specimen/Atkinson+Hyperlegible" }
+      ],
+      "officialDomains": ["brailleinstitute.org", "google.com"],
+      "versionHint": "Family includes Next and Mono variants",
+      "needs": ["low-vision", "dyslexia-reading"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "opendyslexic",
+      "name": "OpenDyslexic font",
+      "category": "dyslexia-fonts",
+      "platforms": ["web", "windows", "macos", "ios", "android"],
+      "freeStatus": "open-source",
+      "license": "SIL Open Font License",
+      "oneLiner": "A free, open font with heavier letter bottoms and generous spacing, designed against common dyslexia confusions.",
+      "whatItDoes": "Install it as a system or app font and letters carry a weighted bottom that consistently says 'this side is down', which helps some readers stop flipping b/d and p/q. It is offered as a choice inside Wikipedia, on many eBook readers, and in phone font settings.",
+      "proofFree": "Free under the SIL Open Font License for any use - the official site states 'There are no mandatory fees' and the itch.io download allows setting the optional donation to zero.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "An honest note from one friend to another: research on specialty fonts is mixed, and different readers benefit from different things. Trying costs nothing, so install it, set it, read for a week, and keep your own verdict."
+      },
+      "sources": [
+        { "label": "OpenDyslexic official site", "url": "https://opendyslexic.org/" },
+        { "label": "OpenDyslexic download page (optional donation)", "url": "https://antijingoist.itch.io/opendyslexic" }
+      ],
+      "officialDomains": ["opendyslexic.org", "antijingoist.itch.io"],
+      "versionHint": "Includes regular and Alta variants",
+      "needs": ["dyslexia-reading"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "windows-sticky-filter-keys",
+      "name": "Windows Sticky Keys & Filter Keys",
+      "category": "keyboard-only",
+      "platforms": ["windows"],
+      "freeStatus": "built-in",
+      "oneLiner": "Press shortcut combos one key at a time, and make the keyboard ignore stray bumps and repeats.",
+      "whatItDoes": "Sticky Keys (five presses of Shift toggles it) lets you press the keys in Ctrl + S one at a time; Filter Keys (hold Right Shift eight seconds) ignores brief or repeated keystrokes so a shaky hand does not type five letters for one. Both live in Settings - Accessibility - Keyboard, with toggles to silence or disable the keyboard shortcuts that switch them.",
+      "proofFree": "Included in Windows 10 and 11; Microsoft documents every toggle on its 'make your mouse, keyboard, and other input devices easier to use' support page at no charge.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "One-handed or tremor-affected typists feel the benefit on day one. Turn on both, then look at the same settings page to switch off the Shift-tap shortcuts if they switch these helpers on by accident."
+      },
+      "sources": [
+        { "label": "Make your mouse, keyboard, and other input devices easier to use (Microsoft)", "url": "https://support.microsoft.com/en-us/accessibility/windows/make-your-mouse-keyboard-and-other-input-devices-easier-to-use" }
+      ],
+      "officialDomains": ["microsoft.com"],
+      "versionHint": "Windows 10 and 11",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "windows-onscreen-keyboard",
+      "name": "Windows On-Screen Keyboard",
+      "category": "keyboard-only",
+      "platforms": ["windows"],
+      "freeStatus": "built-in",
+      "oneLiner": "A full keyboard drawn on the display, pressed with mouse, trackpad, joystick, or another pointing device.",
+      "whatItDoes": "Open it from Settings - Accessibility - Keyboard ('On-screen keyboard') or the Windows + Ctrl + O shortcut. It stays on screen and accepts keys from whatever pointing device you trust, which rescues sessions when a laptop keyboard dies or a physical keyboard is out of reach.",
+      "proofFree": "A component of every Windows 10 and 11 installation; the same Microsoft support page that documents Sticky and Filter Keys walks through turning it on and using a pointing device with it.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "Slower than a real keyboard but priceless insurance: know where the toggle lives before the day you need it. Pair it with Sticky Keys so two-key shortcuts stay possible."
+      },
+      "sources": [
+        { "label": "Make your mouse, keyboard, and other input devices easier to use (Microsoft)", "url": "https://support.microsoft.com/en-us/accessibility/windows/make-your-mouse-keyboard-and-other-input-devices-easier-to-use" }
+      ],
+      "officialDomains": ["microsoft.com"],
+      "versionHint": "Windows 10 and 11",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "macos-full-keyboard-access",
+      "name": "macOS Full Keyboard Access & Keyboard settings",
+      "category": "keyboard-only",
+      "platforms": ["macos"],
+      "freeStatus": "built-in",
+      "oneLiner": "Operate the whole Mac - menus, Dock, toolbars - from the keyboard, with a big visible focus cursor.",
+      "whatItDoes": "Turn on Full Keyboard Access under System Settings - Accessibility - Keyboard and the Tab key plus arrow keys move a highlighted cursor anywhere on screen; you can enlarge it, recolor it, or auto-hide it. The same settings pane provides Sticky Keys, Slow Keys, and the on-screen Accessibility Keyboard for typing without hardware.",
+      "proofFree": "Built into macOS at no cost; Apple's support library documents the full command list and customization options publicly.",
+      "beginnerVerdict": {
+        "level": "with-practice",
+        "text": "Transformative once learned, and the command list is long - so give it a week of daily short sessions rather than one heroic afternoon. Print Apple's command summary from the guide and tape it nearby."
+      },
+      "sources": [
+        { "label": "Navigate your Mac using Full Keyboard Access (Apple Support)", "url": "https://support.apple.com/guide/mac-help/use-full-keyboard-access-mchlc06d1059/mac" },
+        { "label": "Keyboard accessibility settings on Mac (Apple Support)", "url": "https://support.apple.com/guide/mac-help/change-keyboard-settings-for-accessibility-mchlae61a6de/mac" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "macOS",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "vimium",
+      "name": "Vimium",
+      "category": "keyboard-only",
+      "platforms": ["chrome", "firefox"],
+      "freeStatus": "open-source",
+      "license": "MIT (open source)",
+      "oneLiner": "A keyboard extension for browsers: scroll with j and k, click any visible link by typing the letter it labels.",
+      "whatItDoes": "Vimium adds one-key web navigation in the spirit of the Vim editor: j/k scrolls, f draws a letter tag on every clickable item, and single keys copy URLs, switch tabs, and scroll by screens. Key bindings are fully remappable and the help dialog (type ?) lists yours.",
+      "proofFree": "The source code is published under the MIT license on the project's own GitHub repository, and the extension installs free from the Chrome Web Store and Firefox Add-ons - no tier of payment exists.",
+      "beginnerVerdict": {
+        "level": "with-practice",
+        "text": "Life-changing for committed keyboard-only users; a steep first week for everyone else. Start with just j, k, and f, ignore the tab commands for now, and bookmark the official shortcut list from the site."
+      },
+      "sources": [
+        { "label": "Vimium official site", "url": "https://vimium.github.io/" },
+        { "label": "Vimium source code (GitHub)", "url": "https://github.com/philc/vimium" }
+      ],
+      "officialDomains": ["github.io", "github.com"],
+      "versionHint": "Chrome and Firefox",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "ios-assistive-access",
+      "name": "iPhone Assistive Access",
+      "category": "phone-builtins",
+      "platforms": ["ios"],
+      "freeStatus": "built-in",
+      "oneLiner": "A radically simplified iPhone interface - giant labels, a short app list - for people who find a full phone overwhelming.",
+      "whatItDoes": "Assistive Access (iOS 17 and later) replaces the home screen with a large grid or row-style list of only the chosen apps - calls, messages, camera, photos, music - in very large text with a clear, simple structure. A trusted supporter sets it up, personalizes it, and can enter or exit it.",
+      "proofFree": "Part of iOS itself; Apple publishes the complete Assistive Access user guide free of charge, with no sign-up to read it.",
+      "beginnerVerdict": {
+        "level": "start-here",
+        "text": "Consider it for a parent or relative who finds a busy modern phone stressful: it keeps the essential apps and hides everything else. Setup takes ten minutes - take it slow picking which apps make the cut."
+      },
+      "sources": [
+        { "label": "Assistive Access user guide (Apple Support)", "url": "https://support.apple.com/guide/assistive-access-iphone/welcome/ios" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "iOS 17 and later",
+      "needs": ["cognitive-focus", "motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "ios-assistive-touch",
+      "name": "iPhone AssistiveTouch",
+      "category": "phone-builtins",
+      "platforms": ["ios"],
+      "freeStatus": "built-in",
+      "oneLiner": "A floating on-screen button that performs the presses, pinches, and shakes a hand cannot.",
+      "whatItDoes": "Turn it on in Settings - Accessibility - Touch - AssistiveTouch: a small draggable menu button gives one-tap access to Home, screenshots, volume, rotation lock, one-tap access to Home, screenshots, volume, rotation lock, and multifinger gestures, and it also works with compatible joystick-style accessories. Triple-clicking the side button can toggle it.",
+      "proofFree": "A built-in iOS feature documented in Apple's iPhone User Guide; it costs nothing and works with or without adaptive accessories.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "Essential when pinches and side buttons hurt or miss; handy even for everyone else - plenty of people enable it purely for the one-tap screenshot. Trim its menu down to the five actions you actually use."
+      },
+      "sources": [
+        { "label": "Use AssistiveTouch on iPhone (Apple Support)", "url": "https://support.apple.com/guide/iphone/use-assistivetouch-iph96b21954/ios" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "iOS and iPadOS",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "android-sound-amplifier",
+      "name": "Android Sound Amplifier",
+      "category": "phone-builtins",
+      "platforms": ["android"],
+      "freeStatus": "built-in",
+      "oneLiner": "Headphones become a hearing helper: loud, clean sound from the room, with noise filtered down.",
+      "whatItDoes": "Sound Amplifier boosts and clarifies the sound around you through wired or Bluetooth headphones - useful in restaurants, meetings, or lectures - and can separate speech from background noise. It also amplifies media playing on the phone itself.",
+      "proofFree": "A free Android accessibility feature from Google, documented in Android Accessibility Help; on many phones it is preinstalled and elsewhere downloads free from Google Play.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "Try it before anyone assumes more hardware is needed for casual listening. It is not a substitute for an audiologist - if hearing loss is a real concern, an actual hearing test is the next step, and this can still help in between."
+      },
+      "sources": [
+        { "label": "Sound Amplifier (Google Accessibility Help)", "url": "https://support.google.com/accessibility/android/answer/9157755" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "Android",
+      "needs": ["hard-of-hearing"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "apple-live-speech",
+      "name": "Apple Live Speech & Personal Voice",
+      "category": "phone-builtins",
+      "platforms": ["ios", "macos"],
+      "freeStatus": "built-in",
+      "oneLiner": "Type a sentence and the device speaks it during calls and in person - even in a voice built to sound like you.",
+      "whatItDoes": "Live Speech speaks typed text through FaceTime, Phone calls, and the device speaker, with saved favorite phrases for one-tap replay. Personal Voice goes further: record a training session and your device builds a synthesized voice that sounds like you, usable in Live Speech and other built-in speech features.",
+      "proofFree": "Included with iOS 17 and later, iPadOS 17 and later, and macOS Sonoma and later; Apple's public articles list the device requirements (iPhone XS or later for Live Speech, iPhone 12 or later for Personal Voice) and never charge for either.",
+      "beginnerVerdict": {
+        "level": "easy",
+        "text": "A kind, zero-cost answer to losing or lacking a speaking voice. Recording a Personal Voice takes some setup time and is limited to certain languages and devices - check Apple's list before promising anyone it will sound like them."
+      },
+      "sources": [
+        { "label": "Use Live Speech on iPhone, iPad, Mac, or Apple Watch (Apple Support)", "url": "https://support.apple.com/en-us/105018" },
+        { "label": "Create a Personal Voice (Apple Support)", "url": "https://support.apple.com/en-us/104993" }
+      ],
+      "officialDomains": ["apple.com"],
+      "versionHint": "iOS 17+, macOS Sonoma+; language and device limits apply",
+      "needs": ["speech"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    },
+    {
+      "id": "android-switch-access",
+      "name": "Android Switch Access",
+      "category": "phone-builtins",
+      "platforms": ["android"],
+      "freeStatus": "built-in",
+      "oneLiner": "Run the whole phone from one or two buttons, a USB switch, or even facial gestures read through the camera.",
+      "whatItDoes": "Switch Access scans the screen and highlights items in turn; pressing your assigned switch selects the highlighted item. It supports external switches, Bluetooth and USB keyboards acting as switches, and Camera Switches that map simple facial gestures to actions - a serious option for people who cannot touch the screen reliably.",
+      "proofFree": "Free and built into Android, including the Camera Switches feature; Google documents the setup guide, tips, and settings in its public Accessibility Help pages.",
+      "beginnerVerdict": {
+        "level": "with-practice",
+        "text": "Powerful and genuinely life-changing when touch is not an option, but plan on a helper for the first setup - it is a project, not a five-minute toggle. Start with the Setup Guide in Settings - Accessibility - Switch Access and mount the phone securely."
+      },
+      "sources": [
+        { "label": "Set up Switch Access (Google)", "url": "https://support.google.com/accessibility/android/answer/6301490" },
+        { "label": "Use Camera Switches (Google)", "url": "https://support.google.com/accessibility/android/answer/11150722" }
+      ],
+      "officialDomains": ["google.com"],
+      "versionHint": "Android",
+      "needs": ["motor-dexterity"],
+      "lastChecked": "2026-10-27",
+      "recheckBy": "2027-01-27"
+    }
+  ]
+}
